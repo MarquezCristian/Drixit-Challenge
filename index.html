@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript">
+    function validar ()
+    {
+        var usuario=document.getElementById("usuario").value;
+        var contraseña=document.getElementById("contraseña").value;
+        if (usuario=="admin@drixit.com" && contraseña=="testing")
+        {
+            alert("Usuario ingresado exitosamente")
+        }
+        else{
+            alert("Verique sus datos");
+        }
+    }
+
+
+    </script>
+</head>
+<body>
+     <div class="login-box">
+         <img  class="avatar" src="img/dr1.jpg" alt="Logo Drixit">
+         <h1>Iniciar Sesion</h1>
+         <form action="" id="form">
+             <label for="username">Nombre de usuario</label>
+             <input type="text" placeholder="Ingresar usuario" id="usuario" required/>
+
+             <label for="password">Contraseña</label>
+             <input type="password" placeholder="Ingresar Contraseña" id="contraseña" required/>
+
+             <input type="submit" value="Log In" id="btnLog" onclick="validar()"/>
+              
+             <a href="#">Olvido su contraseña?</a> <br>
+             <a href="#">Todavia no estas registrad?</a>
+
+         </form>
+     </div>
+</body>
+</html>

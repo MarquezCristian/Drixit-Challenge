@@ -1,0 +1,24 @@
+   /* Test Cases  */
+
+
+1-Verify that tab functionality is working propperly
+
+2-Verify that all the fiels such as username and password has a valid placeholder
+
+3-Verify that user is able to login with valid credentials
+
+4-Verify that user is not able to Login with blank username and password
+
+5-Verify that before the @ all ascii characters are included
+
+6-Verify that User is not able to Login with Valid Username and invalid Password
+
+7-Verify that clicking on browser back button after successful logout should not take User to logged in mode
+
+8-Verify that spaces should not be allowed before any password characters attempted
+
+9-Verify that the timeout of the login session
+
+10-Verify that the login page is vulnerable to SQL injection
+
+11-Verify if there is a checkbox with the label “remember password” on the login page
